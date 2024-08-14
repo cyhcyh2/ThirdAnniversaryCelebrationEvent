@@ -1,0 +1,13 @@
+name: ThirdAnniversaryCelebrationEvent
+version: '${project.version}'
+main: me.cyh2.thirdanniversarycelebrationevent.ThirdAnniversaryCelebrationEvent
+api-version: '1.19'
+commands:
+  spawn-gift:
+    description: "awa"
+    permission: TACE.gift
+    permission-message: "awa"
+permissions:
+  TACE.gift:
+    description: "awa"
+    default: op
